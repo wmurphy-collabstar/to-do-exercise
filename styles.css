@@ -1,0 +1,22 @@
+.item{
+    padding: .5rem .75rem;
+    list-style: none;
+    border-radius: 1rem;
+    border: 1px solid #d3d3d3;
+    width: 15%;
+    margin: 0 0 .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.item::before{
+    content: "🌟";
+    margin-right: .25rem;
+    font-size: 1.5rem;
+}
+
+.completed{
+    background: #6b8e23;
+    color: #FFF;
+    text-decoration: line-through;
+}
